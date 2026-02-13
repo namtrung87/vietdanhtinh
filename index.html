@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Việt Danh Tính - Phân Tích Tên Theo Ngũ Hành</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="app">
+    <!-- Header -->
+    <header class="main-header">
+      <div class="logo-container">
+        <div class="logo-circle">
+          <span class="logo-text">VDT</span>
+        </div>
+        <h1>Việt Danh Tính</h1>
+      </div>
+      <p class="subtitle">Hệ Thống Phân Tích Tên Cao Cấp Theo Ngũ Hành</p>
+    </header>
+
+    <main class="container">
+      <!-- Input Section -->
+      <section class="card input-section">
+        <h2 class="section-title">Nhập Thông Tin</h2>
+        <div class="input-grid">
+          <div class="input-group">
+            <label for="hoInput">Họ</label>
+            <input type="text" id="hoInput" placeholder="Ví dụ: Nguyễn" autocomplete="off">
+            <div id="hoHint" class="input-hint"></div>
+          </div>
+          <div class="input-group">
+            <label for="demInput">Đệm</label>
+            <input type="text" id="demInput" placeholder="Ví dụ: Văn" autocomplete="off">
+            <div id="demHint" class="input-hint"></div>
+          </div>
+          <div class="input-group">
+            <label for="tenInput">Tên</label>
+            <input type="text" id="tenInput" placeholder="Ví dụ: An" autocomplete="off">
+            <div id="tenHint" class="input-hint"></div>
+          </div>
+        </div>
+
+        <!-- Gender Selection -->
+        <div class="gender-selection">
+          <span class="gender-label">Giới Tính:</span>
+          <div class="radio-group">
+            <label class="radio-label">
+              <input type="radio" name="gender" value="male" checked>
+              <span class="radio-custom"></span>
+              Nam
+            </label>
+            <label class="radio-label">
+              <input type="radio" name="gender" value="female">
+              <span class="radio-custom"></span>
+              Nữ
+            </label>
+          </div>
+        </div>
+
+        <div class="action-buttons">
+          <button id="analyzeBtn" class="btn btn-primary">Phân Tích Tên</button>
+          <button id="resetBtn" class="btn btn-secondary">Nhập Lại</button>
+        </div>
+      </section>
+
+      <!-- Results Section -->
+      <section id="resultsSection" class="results-section hidden">
+        <div class="full-name-display">
+          <h2 id="fullNameText" class="full-name-text"></h2>
+          <!-- Total Score Badge -->
+          <div id="totalScoreBox" class="total-score-box">
+            <span class="total-score-label">TỔNG ĐIỂM</span>
+            <div class="total-score-value">
+              <span id="totalScoreNumber">--</span><span class="total-score-max">/60</span>
+            </div>
+            <div id="totalScoreVerdict" class="total-score-verdict">--</div>
+          </div>
+        </div>
+
+        <!-- Syllable Breakdown -->
+        <div id="syllableGrid" class="syllable-grid">
+          <!-- Syllables injected here -->
+        </div>
+
+        <!-- Cục Grid -->
+        <div class="cuc-grid-container">
+
+          <!-- Row 1: Mệnh Cục (Tĩnh - Động) -->
+          <div class="cuc-row-header">
+            <h3>Mệnh Cục (Cơ Bản)</h3>
+            <div class="divider"></div>
+          </div>
+          <div class="cuc-row">
+            <!-- Tĩnh Cục Card -->
+            <div class="card result-card" id="tinhCucCard">
+              <div class="card-header">
+                <span class="card-icon">🏔️</span>
+                <h3>Tĩnh Cục</h3>
+              </div>
+              <div class="score-circle" id="tinhCucScore">
+                <span class="score-number" id="tinhCucNumber">--</span>
+                <span class="score-label">Cát/Hung</span>
+              </div>
+              <div class="cuc-details">
+                <h4 id="tinhCucName">--</h4>
+                <p id="tinhCucAlias" class="cuc-alias">--</p>
+                <div class="interpretation-box">
+                  <p id="tinhCucMeaning">--</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Động Cục Card -->
+            <div class="card result-card" id="dongCucCard">
+              <div class="card-header">
+                <span class="card-icon">🌊</span>
+                <h3>Động Cục</h3>
+              </div>
+              <div class="score-circle" id="dongCucScore">
+                <span class="score-number" id="dongCucNumber">--</span>
+                <span class="score-label">Cát/Hung</span>
+              </div>
+              <div class="cuc-details">
+                <h4 id="dongCucName">--</h4>
+                <p id="dongCucAlias" class="cuc-alias">--</p>
+                <div class="interpretation-box">
+                  <p id="dongCucMeaning">--</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Row 2: Vận Cục (Tiền - Hậu) -->
+          <div class="cuc-row-header">
+            <h3>Vận Cục (Thời Vận)</h3>
+            <div class="divider"></div>
+          </div>
+          <div class="cuc-row">
+            <!-- Tiền Vận Card -->
+            <div class="card result-card" id="tienVanCard">
+              <div class="card-header">
+                <span class="card-icon">🌱</span>
+                <h3>Tiền Vận</h3>
+              </div>
+              <div class="score-circle" id="tienVanScore">
+                <span class="score-number" id="tienVanNumber">--</span>
+                <span class="score-label">Cát/Hung</span>
+              </div>
+              <div class="cuc-details">
+                <h4 id="tienVanName">--</h4>
+                <p id="tienVanAlias" class="cuc-alias">--</p>
+                <div class="interpretation-box">
+                  <p id="tienVanMeaning">--</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Hậu Vận Card -->
+            <div class="card result-card" id="hauVanCard">
+              <div class="card-header">
+                <span class="card-icon">🌳</span>
+                <h3>Hậu Vận</h3>
+              </div>
+              <div class="score-circle" id="hauVanScore">
+                <span class="score-number" id="hauVanNumber">--</span>
+                <span class="score-label">Cát/Hung</span>
+              </div>
+              <div class="cuc-details">
+                <h4 id="hauVanName">--</h4>
+                <p id="hauVanAlias" class="cuc-alias">--</p>
+                <div class="interpretation-box">
+                  <p id="hauVanMeaning">--</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Row 3: Bổ Trợ (Phúc - Tử) -->
+          <div class="cuc-row-header">
+            <h3>Bổ Trợ (Gia Đạo)</h3>
+            <div class="divider"></div>
+          </div>
+          <div class="cuc-row">
+            <!-- Phúc Đức Card -->
+            <div class="card result-card" id="phucDucCard">
+              <div class="card-header">
+                <span class="card-icon">✨</span>
+                <h3>Phúc Đức</h3>
+              </div>
+              <div class="score-circle" id="phucDucScore">
+                <span class="score-number" id="phucDucNumber">--</span>
+                <span class="score-label">Cát/Hung</span>
+              </div>
+              <div class="cuc-details">
+                <h4 id="phucDucName">--</h4>
+                <p id="phucDucAlias" class="cuc-alias">--</p>
+                <div class="interpretation-box">
+                  <p id="phucDucMeaning">--</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tử Tức Card -->
+            <div class="card result-card" id="tuTucCard">
+              <div class="card-header">
+                <span class="card-icon">👶</span>
+                <h3>Tử Tức</h3>
+              </div>
+              <div class="score-circle" id="tuTucScore">
+                <span class="score-number" id="tuTucNumber">--</span>
+                <span class="score-label">Cát/Hung</span>
+              </div>
+              <div class="cuc-details">
+                <h4 id="tuTucName">--</h4>
+                <p id="tuTucAlias" class="cuc-alias">--</p>
+                <div class="interpretation-box">
+                  <p id="tuTucMeaning">--</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Detailed Interpretations -->
+        <div class="details-section">
+          <h3 class="section-title">Luận Giải Chi Tiết</h3>
+          <div class="detail-tabs">
+            <button class="tab-btn active" data-tab="tinh">Tĩnh Cục</button>
+            <button class="tab-btn" data-tab="dong">Động Cục</button>
+            <button class="tab-btn" data-tab="tien">Tiền Vận</button>
+            <button class="tab-btn" data-tab="hau">Hậu Vận</button>
+            <button class="tab-btn" data-tab="phuc">Phúc Đức</button>
+            <button class="tab-btn" data-tab="tu">Tử Tức</button>
+          </div>
+
+          <div id="interpretationContent" class="interpretation-content">
+            <!-- Content injected via JS -->
+          </div>
+        </div>
+
+        <!-- Advice Section (New) -->
+        <div id="adviceSection" class="advice-section hidden">
+          <h3 class="section-title">Lời Khuyên</h3>
+          <div id="adviceContent" class="advice-content">
+            <!-- Content injected here -->
+          </div>
+        </div>
+
+      </section>
+
+      <!-- Name Suggestion -->
+      <section class="card suggestion-section">
+        <h2 class="section-title">Tra Cứu Tên Theo Ngũ Hành</h2>
+        <div class="element-buttons">
+          <button class="element-btn kim" data-element="Kim">Kim</button>
+          <button class="element-btn moc" data-element="Mộc">Mộc</button>
+          <button class="element-btn thuy" data-element="Thủy">Thủy</button>
+          <button class="element-btn hoa" data-element="Hỏa">Hỏa</button>
+          <button class="element-btn tho" data-element="Thổ">Thổ</button>
+        </div>
+        <div id="suggestionResults" class="suggestion-grid"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Việt Danh Tính. Based on research by Cao Từ Linh.</p>
+    </footer>
+  </div>
+  <canvas id="bgCanvas"></canvas>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>

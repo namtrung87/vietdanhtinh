@@ -1,0 +1,650 @@
+{
+  "4": {
+    "number": 4,
+    "name": "Cục 4:",
+    "luck": "Hung",
+    "alias": "Hung Biển",
+    "palace": "Cư Cung Tốn",
+    "meaning": "Tướng Hung, mọi sự suy vi bại, hoại,  mọi việc đều không như ý, suốt đời ảm đạm, không trọn vẹn, bệnh họan, tai họa liên tiếp. Nếu nhẫn nại, biết phục thiện, kiên nhẫn mới cải biến được vận mệnh."
+  },
+  "13": {
+    "number": 13,
+    "name": "Cục 13:",
+    "luck": "Cát",
+    "alias": "Xuân Nhật Mẫu Đơn",
+    "palace": "Cư Cung Tốn",
+    "meaning": "Vận số Cát được mọi người kỳ vọng, nghề nghiệp giỏi, có mưu trí, thao lược, biết nhẫn nhục, tuy có việc khó nhưng không đáng lo nên sẽ giàu, trí tuệ sung mãn, phú quý song toàn, suốt đời hạnh phúc."
+  },
+  "22": {
+    "number": 22,
+    "name": "Cục 22",
+    "luck": "Hung",
+    "alias": "Thu thảo",
+    "palace": "Cư Cung Tốn",
+    "meaning": "Số này như sương xuống mùa thu: bạc nhược, nhiều việc phiền phức, khó thành chí nguyện, côi cút cô đơn, bệnh tật, mọi việc đều không như ý."
+  },
+  "31": {
+    "number": 31,
+    "name": "Cục 31",
+    "luck": "cát",
+    "alias": "Xuân Nhật Khai Hoa",
+    "palace": "Cư Cung Tốn",
+    "meaning": "Số này đại cát như rồng lên mây, nhân trí dũng đều đủ, có ý chí kiên định, giàu sức quan sát, xem xét việc lớn, giao thiệp với người thì ôn hòa khoan dung, đc nổi tiếng. Đây là vận của thủ lĩnh trong sự sáng lập đại nghiệp. Nếu có ý bằng lòng thì sẽ không thành công lớn."
+  },
+  "40": {
+    "number": 40,
+    "name": "Cục 40",
+    "luck": "Trong cát có hung",
+    "alias": "Thoái an",
+    "palace": "Cư Cung Tốn",
+    "meaning": "Giàu mưu trí, can đảm, nhg thiếu tình người, quá kiêu ngạo nên mọi người không ưa, dễ bị công kích, phỉ báng hoặc xem như có địch nên lâm vào thế một tay khó vỗ nên kêu, cần phải bỏ sự kiêu ngạo, xử thế phải khiêm nhường thì sẽ nên nghiệp lớn."
+  },
+  "49": {
+    "number": 49,
+    "name": "Cục 49",
+    "luck": "Hung",
+    "alias": "Chuyển biến",
+    "palace": "Cư Cung Tốn",
+    "meaning": "Ở ngã 3 giữa cát & hung, đi đường cát gặp cát, đường hung gặp hung. Việc họa phúc không đi riêng lẻ, gặp hung, vì đây là vận cách dễ biến báo. Hạnh phúc và bất hạnh phải nhờ vào sự phối hợp giữa Tam tài và các vận cách cát hung khác mới đạt được, nhưng phần lớn là tai nạn khốn khổ."
+  },
+  "58": {
+    "number": 58,
+    "name": "Cục 58",
+    "luck": "Trong hung có cát",
+    "alias": "Vận hành ngộ nguyệt",
+    "palace": "Cư Cung Tốn",
+    "meaning": "Nhiều chuyện chìm nổi, Vận số nửa hung nửa cát. Họa phúc vô chừng, trời cho phúc phận rồi đến thất bại. Suy bại rồi mới đạt được phú quý vinh hoa. Đây là vận cách khổ trước sướng sau."
+  },
+  "67": {
+    "number": 67,
+    "name": "Cục 67",
+    "luck": "Cát",
+    "alias": "Thông đạt",
+    "palace": "Cư Cung Tốn",
+    "meaning": "Số như cây cối gặp mưa mùa xuân, được người trên giúp đỡ nên mọi sự đều như ý, công thành danh toại, phú quý phồn vinh. Đó là vận may tự đến. Nhưng nếu ham sắc dục thì sẽ gặp vận bi. Không thể không chú ý."
+  },
+  "76": {
+    "number": 76,
+    "name": "Cục 76",
+    "luck": "Hung",
+    "alias": "Ly tán",
+    "palace": "Cư Cung Tốn",
+    "meaning": "Số hung ác khuynh vong. Có việc lo bị phế truất có tai ách phá ân, vong gia. Vì qua nhiều khốn khổ nên sa vào nghèo túng, bệnh tật, yểu mệnh. Cần làm nhiều việc ân đức mới có thể tránh khỏi được."
+  },
+  "9": {
+    "number": 9,
+    "name": "Cục 9",
+    "luck": "Trong hung có cát",
+    "alias": "Phá chu nhập hải",
+    "palace": "Cư Cung Ly",
+    "meaning": "Bất mãn, bất bình, trôi nổi không nhất định. Số tài không gặp vận, Nếu phối trí tam tài thích hợp thì có thể được thuận lợi với hoàn cảnh mà sân sinh anh hùng hào kiệt, học giả vĩ nhân nên sự nghiệp lớn."
+  },
+  "18": {
+    "number": 18,
+    "name": "Cục 18",
+    "luck": "Cát",
+    "alias": "Thiết kính trùng ma",
+    "palace": "Cư Cung Ly",
+    "meaning": "Số này thuận lợi tốt đẹp, có quyền lực, mưu trí, lập thân, sẽ phá bỏ đc hoạn nạn, thu được danh lợi, nhưng quá cứng rắn, thiếu sự bao dung, cứng quá dễ gẫy, sinh chuyện thị phi, nên tập mềm mỏng, phân biệt thiện ác, nơi hiểm đừng đến. Gặp việc nên suy nghĩ kỹ hãy làm sẽ thành công cả danh và lợi."
+  },
+  "27": {
+    "number": 27,
+    "name": "Cục 27",
+    "luck": "Trong cát có hung",
+    "alias": "Tăng trưởng",
+    "palace": "Cư Cung Ly",
+    "meaning": "Số này là vận bi phỉ báng, có hiện tượng nửa đường gẫy đổ, cần có mưu trí, phấn đấu nỗ lực mới nắm đc danh lợi. Lúc trung niên mới thành công. Về già nếu không cẩn thận sẽ gặp chuyện công kích phỉ báng, sa vào nghịch cảnh. Đó là nửa thành nửa bại, nửa thịnh nửa suy, phải cẩn thận mới giữ được."
+  },
+  "36": {
+    "number": 36,
+    "name": "Cục 36",
+    "luck": "Hung",
+    "alias": "Ba đào",
+    "palace": "Cư Cung Ly",
+    "meaning": "Số này sóng dậy muôn trùng, anh hùng vận bẩy nổi ba chìm. Suốt đời sa vào cùng khốn, khó được bình yên, gian khó nguy nan cùng cực, chỉ có cách tu tâm, dưỡng tính mới tránh khỏi đại họa. Nếu càng hoạt động, càng sóng gió, nên thận trọng."
+  },
+  "45": {
+    "number": 45,
+    "name": "Cục 45",
+    "luck": "Cát",
+    "alias": "Thuận phong",
+    "palace": "Cư Cung Ly",
+    "meaning": "Giống như giương buồm thuận gió, mưu trí cao xa, đức độ rộng rãi, có 1 lần gặp nạn, sinh tử đến mình nhưng hóa giải được mà thành danh, được phú quý, phồn vinh tột bực."
+  },
+  "54": {
+    "number": 54,
+    "name": "Cục 54",
+    "luck": "Hung",
+    "alias": "Thạch thương tài hoa",
+    "palace": "Cư Cung Ly",
+    "meaning": "Hung sát ấy là phá tài, khổ ách, bệnh tật, cô độc yểu mệnh, thất bại. Việc gì cũng không yên tâm. Tuy dốc hết sức để đối phó nhưng nhọc sức mà vô công. Ko cát."
+  },
+  "63": {
+    "number": 63,
+    "name": "Cục 63",
+    "luck": "Cát",
+    "alias": "Chu quy bình phố",
+    "palace": "Cư Cung Ly",
+    "meaning": "Mọi việc đều như ý, có phúc trời cho, gặp dữ hóa lành như vạn vật nhờ mưa móc mà phát sinh, chẳng hao tổn tâm thần mà vạn sự đều như ý. Số cát này truyền đến đời con cháu."
+  },
+  "72": {
+    "number": 72,
+    "name": "Cục 72",
+    "luck": "Hung",
+    "alias": "Lao khổ",
+    "palace": "Cư Cung Ly",
+    "meaning": "Giống như mặt trăng bị mây đen che phủ. Ngày nay phần vinh mai kia bi thảm, phiền muộn khổ đau, tu tưởng không toại nguyện. Vì vậy lúc bình thường nên siêng cần, không qua loa, không phóng đãng thì có thể giữ cho lúc già khỏi gặp cảnh khốn khó."
+  },
+  "81": {
+    "number": 81,
+    "name": "Cục 81",
+    "luck": "Cát",
+    "alias": "Hoàn bổn quy nguyên",
+    "palace": "Cư Cung Ly",
+    "meaning": "Là số cực lớn, quy nguyên trở lại ban đầu. Số lý của nó và cơ số giống nhan vạn bảo triều tông, số đại cát, đủ phú quý, vinh hoa, số giống nhau vạn bảo triều tông, số đại cát, đủ phú quý, vinh hoa."
+  },
+  "2": {
+    "number": 2,
+    "name": "Cục 2",
+    "luck": "Hung",
+    "alias": "Nhất thân có thiết",
+    "palace": "Cư Cung Khôn",
+    "meaning": "Số lộn xộn, không ổn định, trong ngoài đều sóng gió, việc làm khó đạt được nguyện vọng, gặp hoạn nạn, bất an, quá nhọc nhằn mà sinh bệnh là điềm rất nguy hiểm."
+  },
+  "11": {
+    "number": 11,
+    "name": "Cục 11",
+    "luck": "Cát",
+    "alias": "Hạn miêu phung vũ",
+    "palace": "Cư Cung Khôn",
+    "meaning": "âm dương mới hồi phục như cây cỏ gặp mùa xuân, cành lá tươi như hạn gặp nước. Nhờ tài thiên phú mà từng bước thành công, thăng tiến chắc chắn, được phú quý vinh hoa, đắc lộc, đắc thọ, là số đại cát."
+  },
+  "20": {
+    "number": 20,
+    "name": "Cục 20",
+    "luck": "Trong hung có cát",
+    "alias": "ốc hạ tàng kim",
+    "palace": "Cư Cung Khôn",
+    "meaning": "Là số phá diệt suy vong, số này có cơ duyên mỏng manh, nhiều tai họa. Tuy cứng cỏi thành sự nghiệp nhưng có chướng ngại, chí lớn không thành, suốt đời bị ngăn trở, không thuận lợi, có tinh thần nhẫn nại, bất khuất. Nếu tam tài phối hợp tốt sẽ làm nên sự nghiệp lớn."
+  },
+  "29": {
+    "number": 29,
+    "name": "Cục 29",
+    "luck": "Cát",
+    "alias": "Bất bình",
+    "palace": "Cư Cung Khôn",
+    "meaning": "Là cách thành công, hạnh phúc như rồng gặp mây, thẳng bước, có điềm thành tựu đại sự nghiệp. Nhưng khi đắc chí đừng quên lúc xuất thân, sẽ bị rắc rối tình cảm, cần thận trọng."
+  },
+  "38": {
+    "number": 38,
+    "name": "Cục 38",
+    "luck": "Trong hung có cát",
+    "alias": "Ma thiết thành trâm",
+    "palace": "Cư Cung Khôn",
+    "meaning": "Số này thành công về nghệ thuật, nếu nỗ lực về phương diện nghệ thuật thì có thể tương đối thành đạt, nhưng thiếu tài lãnh đạo, thiếu ý chí thống lĩnh, có chí nhưng thiếu lực nên khó đạt đến mục đích, dễ sa vào bất hạnh, mất ý chí khó thành công."
+  },
+  "47": {
+    "number": 47,
+    "name": "Cục 47",
+    "luck": "Cát",
+    "alias": "Điểm thiết thành kim",
+    "palace": "Cư Cung Khôn",
+    "meaning": "Giống như cây cối nở hoa mùa xuân, được cấp trên đề bạt, đc bè bạn ủng hộ nên đc vận số cát mà nên nghiệp lớn. Phúc lộc sẽ đến với con cháu."
+  },
+  "56": {
+    "number": 56,
+    "name": "Cục 56",
+    "luck": "Hung",
+    "alias": "Lãng lý hành chu",
+    "palace": "Cư Cung Khôn",
+    "meaning": "Việc làm và ý nguyện luôn trái ngược nhau. Cuối cùng là vận số khó thành công. Thiếu dũng khí trong công việc, thiếu chí tiến thủ, tổn thất tai ách, vong thân, họa vô đơn chí, mọi sự đều so le, là sự không yên lúc về già."
+  },
+  "65": {
+    "number": 65,
+    "name": "Cục 65",
+    "luck": "Cát",
+    "alias": "Cự lưu quy hải",
+    "palace": "Cư Cung Khôn",
+    "meaning": "Số đại cát, được phú quý trường thọ. Trời cao đất dày, vận nhà khang thái, phúc thọ miên trường, mọi việc đều thành, suốt đời bình yên, nhưng phải giỏi nắm bắt cơ hội, đừng nên vượt ra ngoài vận cát."
+  },
+  "74": {
+    "number": 74,
+    "name": "Cục 74",
+    "luck": "Hung",
+    "alias": "Tàn hòa kinh sương",
+    "palace": "Cư Cung Khôn",
+    "meaning": "Đây đúng là hậu quả của việc tuổi trẻ không nỗ lực nên về già gặp khó khăn đau khổ. Trước sau năng lực và hành vi không có được, miệng ăn núi lở, sa vào cảnh khổ, tai nạn ngoài ý muốn, đắng cay nhiều nỗi, về già càng bất hạnh."
+  },
+  "3": {
+    "number": 3,
+    "name": "Cục 3",
+    "luck": "Cát",
+    "alias": "Cát tường",
+    "palace": "Cư Cung Chấn",
+    "meaning": "Là số hình thành vạn vật trong trời đất, người có ý chí kiên định, ấy là biểu trưng cho sự kiết tường, mọi sự như ý, phát đạt thành công. Ây là vận kiết tường trời ban."
+  },
+  "12": {
+    "number": 12,
+    "name": "Cục 12",
+    "luck": "Hung",
+    "alias": "Quật tỉnh vô tuyền",
+    "palace": "Cư Cung Chấn",
+    "meaning": "Số này hung, gian nan không buông tha vì tự thân bạc nhược không thể vươn lên, không giữ phận mình, nửa đường gẫy đổ, bơ vơ không nơi nương tựa, là số suốt đời gian khổ."
+  },
+  "21": {
+    "number": 21,
+    "name": "Cục 21",
+    "luck": "Cát",
+    "alias": "Minh nguyệt trung thiên",
+    "palace": "Cư Cung Chấn",
+    "meaning": "Số này là số của người lãnh đạo giàu có một đời, lòng dạ thanh thân, có thể vạn vật hình thành chắc chắn, được mọi người ngưỡng mộ, đầy đủ phúc lộc thọ, nghiệp nhà hưng vượng, thành công vinh hiển. Nếu phụ nữ giữ số này thì ngược lại sẽ có hại. Nếu như đủ vận lãnh đạo thì ở vào vị trí vợ lấn chồng. Hai bên có sự đấu tranh âm thầm, không được yên ổn, Cần thận trọng."
+  },
+  "30": {
+    "number": 30,
+    "name": "Cục 30",
+    "luck": "Trong cát có hung",
+    "alias": "Phi vận",
+    "palace": "Cư Cung Chấn",
+    "meaning": "Là số nửa cát nửa hung, nổi chìm bất định, việc lợi hại, được mất đan xen, đại thành thì đại bại. Nếu như biết ổn định, suy ngẫm, lấy đức sửa mình sẽ thành công vẻ vang. Đàn bà có số này nên cẩn thận trong lòng chuyện hư vinh."
+  },
+  "39": {
+    "number": 39,
+    "name": "Cục 39",
+    "luck": "Cát",
+    "alias": "Phú quý",
+    "palace": "Cư Cung Chấn",
+    "meaning": "Vận số tốt như vạch mây thấy trăng, họa biến thành phúc. Tuy có khó nhọc nhưng mây tan trăng sáng, đường đi dễ thấy. Số này đủ 3 cách: phú quý, trường thọ, quyền uy. Là số cực quý trọng, nhg cực quý sẽ gặp điều ngược lại, chớ nhẹ dạ tin người. Đàn bà không hợp số này."
+  },
+  "48": {
+    "number": 48,
+    "name": "Cục 48",
+    "luck": "Cát",
+    "alias": "Khó tùng lập hạc",
+    "palace": "Cư Cung Chấn",
+    "meaning": "Tài năng, trí tuệ đầy đủ, vận số cát, giàu có, đức độ, hưởng phúc trời ban, công danh lợi lộc thành đạt, uy thế tràn đầy, có thể làm cố vấn cho người và được người tôn kính. Nhg e rằng quá tin người, giao việc mà không điều khiển nổi. Cho nên dùng người phải cẩn thận."
+  },
+  "57": {
+    "number": 57,
+    "name": "Cục 57",
+    "luck": "Bán cát bán hung",
+    "alias": "Nguyệt chiếu thanh tung",
+    "palace": "Cư Cung Chấn",
+    "meaning": "Số chỉ người có tính tình cương nghị, quật cương, ý chí sắt đá, có mưu, tuy có được vinh hoa, phú quý song cuộc đời gặp nhiều tai nạn, trắc trở. Mà tai họa càng lớn thì phúc càng nhiều, ban đầu khó khăn nhưng sau chuyển bại thành thắng."
+  },
+  "66": {
+    "number": 66,
+    "name": "Cục 66",
+    "luck": "Hung",
+    "alias": "Nham đầu bộ mã",
+    "palace": "Cư Cung Chấn",
+    "meaning": "Số chỉ người đa sầu đa cảm, hay nhụt chí trước khó khăn, khó có thành công trong đời. Thường bị rơi vào trường hợp tiến thoái lưỡng nan. Nếu sống nhân nghĩa, giữ chữ tín thì về già được hưởng sự thanh thân, an nhàn."
+  },
+  "75": {
+    "number": 75,
+    "name": "Cục 75",
+    "luck": "Tham bán cát hung",
+    "alias": "Tiến thủ",
+    "palace": "Cư Cung Chấn",
+    "meaning": "Số chỉ người không chùn bước trước khó khăn, luôn nỗ lực phấn đấu nhưng vì quá cương cường mà thường gặp thất bại, nên tu tâm dưởng tính mới có thể thành công."
+  },
+  "5": {
+    "number": 5,
+    "name": "Cục 5",
+    "luck": "Cát",
+    "alias": "Chủng trúc thành lâm",
+    "palace": "Cư Cung Trung",
+    "meaning": "Âm dương hòa hợp, cả nhà hòa thuận, giàu sang, sức khỏe tốt, được phát lộc, sống lâu. Đây là vận cách phú quý vinh hoa."
+  },
+  "14": {
+    "number": 14,
+    "name": "Cục 14",
+    "luck": "Trong hung có cát",
+    "alias": "Phá triệu",
+    "palace": "Cư Cung Trung",
+    "meaning": "Có điềm phá, gian khổ, không duyên số với cha con, anh em, vợ chồng. Nếu có tinh thần kiên định, không bỏ dở nửa chùng thì trong hoạn nạn sẽ có cơ hội trở thành quái kiệt, vĩ nhân, sáng tạo sự nghiệp, nên số này là số đại hung, đại cát. Là người bình thường không dễ chịu đựng nổi gian nan khốn khó này thì chỉ biết nuốt hận mà thôi."
+  },
+  "23": {
+    "number": 23,
+    "name": "Cục 23",
+    "luck": "Cát",
+    "alias": "Tráng lệ",
+    "palace": "Cư Cung Trung",
+    "meaning": "Là số làm thủ lĩnh hiển hách, giàu có rất lớn, có thế vận xung thiên, khắc phục mọi khó khăn mà thành công. Nếu số này mà thiếu đức thì tuy có địa vị, uy quyền e cũng không giữ được lâu. Cần tu thân dưỡng tính mới giữ đc địa vị. Nếu là nữ không nên dùng số này, do cũng như cục số 21. Nữ mà chủ vận và các cách khác có số này thì khó tránh phòng khuê rời rã, trướng gấm lạnh lùng."
+  },
+  "32": {
+    "number": 32,
+    "name": "Cục 32",
+    "luck": "Cát",
+    "alias": "Báo ẩn kim sơn",
+    "palace": "Cư Cung Trung",
+    "meaning": "Là cách nhiều hạnh phúc, được người lớn tuổi giúp đỡ nên dễ thành công. Nhưng thế thành công như rồng ở ao, chờ thời mới bay lên trời dễ như chẻ tre nên phải phát huy tính cách ôn hòa. Thân thiết, bồi dưỡng sự nhân hòa, đủ nhân hòa mới mong được phồn vinh."
+  },
+  "41": {
+    "number": 41,
+    "name": "Cục 41",
+    "luck": "Cát",
+    "alias": "Hữu đức",
+    "palace": "Cư Cung Trung",
+    "meaning": "Là cách thuần dương tốt đẹp. Số này có đủ sự can đảm, tài lực mưu trí, đức độ. Số đại cát về danh lợi, nhưng nhất thiết đừng ham hưởng thụ, phù phiếm xa hoa, dối trá, trồng rỗng."
+  },
+  "50": {
+    "number": 50,
+    "name": "Cục 50",
+    "luck": "Trong cát có hung",
+    "alias": "Tiểu chu nhập hải",
+    "palace": "Cư Cung Trung",
+    "meaning": "Là vận số nửa thành nửa bại, nửa thịnh nửa suy. Tuy có lúc thành đạt nhg nháy mắt hóa ra thất bại. Cho nên lúc thịnh nên lưu ý rút lui, nếu không rõ cái lý \"tràn ly đổ nước\" đến lúc già gặp thất bại khó chỗ dung thân."
+  },
+  "59": {
+    "number": 59,
+    "name": "Cục 59",
+    "luck": "Hung",
+    "alias": "Hàn thiền bi phong",
+    "palace": "Cư Cung Trung",
+    "meaning": "Là hiện tượng suy bại, ý chí suy thoái, thiếu lòng tự tin, gà sành chó đốm chẳng thành đồ dùng, thiếu tài năng để làm nên việc, suốt đời khổ sở không dứt, cho nên phải bồi dưỡng ý chí, lòng tự tin, gặp việc nên dốc hết sức ra mà làm thì mới khai thông được vận mạng."
+  },
+  "68": {
+    "number": 68,
+    "name": "Cục 68",
+    "luck": "Cát",
+    "alias": "Thuận phong suy phàm",
+    "palace": "Cư Cung Trung",
+    "meaning": "Vận số thành công, lo nghĩ chu đáo sẽ được người tin, có sức mạnh xoay trời, đạt thành nguyện vọng, danh lợi, nhưng có lúc quá lo nghĩ mà mất cơ hội trước mắt, hoặc chỉ quyết đoán theo ý mình dẫn đến thất bại."
+  },
+  "77": {
+    "number": 77,
+    "name": "Cục 77",
+    "luck": "Trong cát có hung",
+    "alias": "Bán cát",
+    "palace": "Cư Cung Trung",
+    "meaning": "Số này có ý như nhìn vào gương thấy được vạn vật nên cùng mọi người cùng sống cùng làm. Nhưng bởi đông người nên công việc thêm rối, khó khỏi kẻ tiểu nhân lộng hành mà hư việc. Thời trung niên nhiều lao đao khổ sở, hạnh phúc sẽ thấy được ở tuổi già."
+  },
+  "7": {
+    "number": 7,
+    "name": "Cục 7",
+    "luck": "Cát",
+    "alias": "Tính hãn",
+    "palace": "Cư Cung Đoài",
+    "meaning": "Quyền uy độc lập, thông minh xuất chúng, làm việc cương nghị, quả quyết nên vận cách thắng lợi. Nhưng bân thân quá cứng rắn, độc đoán, độc hành sẽ bị khuyết điểm, gẫy đổ."
+  },
+  "16": {
+    "number": 16,
+    "name": "Cục 16",
+    "luck": "Cát",
+    "alias": "Hậu trọng",
+    "palace": "Cư Cung Đoài",
+    "meaning": "Số này là từ hung hóa cát, có tài làm thủ lĩnh, được mọi người phục, được người tôn trọng, danh vọng được phát. Số này công thành danh toại, phú quý phát đạt cả danh và lợi."
+  },
+  "25": {
+    "number": 25,
+    "name": "Cục 25",
+    "luck": "Cát",
+    "alias": "Anh tuấn",
+    "palace": "Cư Cung Đoài",
+    "meaning": "Thiên tính anh mẫn, có tài năng đặc biệt sẽ thành đạt sự nghiệp, nhưng hay kiêu ngạo, có lúc bất hòa cùng mọi người dẫn đến thất bại, nên cùng người hòa hoãn trong xử sự mới được thành công. Số này có vận thiên thời, địa lợi nhưng thiếu nhân hòa."
+  },
+  "34": {
+    "number": 34,
+    "name": "Cục 34",
+    "luck": "Hung",
+    "alias": "Phá gia",
+    "palace": "Cư Cung Đoài",
+    "meaning": "Là số đại hung vì tai nạn liên miên không dứt, đắng cay thảm đạm, muôn việc khó thành, trong ngoài rối ren, đau thương vô hạn. Nếu người dùng số này không vượt qua được sự phấn đấu nỗ lực của bậc siêu nhân thì không cách gì phá được vận ác."
+  },
+  "43": {
+    "number": 43,
+    "name": "Cục 43",
+    "luck": "Vừa cát vừa hung",
+    "alias": "Tán tài",
+    "palace": "Cư Cung Đoài",
+    "meaning": "Như hoa rụng đêm mưa, bên ngoài thấy hạnh phúc nhưng bên trong rất khốn khó, dễ sa vào hoang bại. Nếu biết vận dụng theo \"tốt gỗ hơn tốt nước sơn\" thì có thể thành đạt."
+  },
+  "52": {
+    "number": 52,
+    "name": "Cục 52",
+    "luck": "Cát",
+    "alias": "Đạt Miên",
+    "palace": "Cư Cung Đoài",
+    "meaning": "Là bậc triết nhân, biết trước thời cơ, biết nhìn xa, bước 1 bước là đến thành công, thế lực to lớn, có trí năng sung mãn, tài cán, dũng khí, biết thời thế để dựng nên sự nghiệp, hy vọng thành công. Có thể mói lợi như nước chảy, quán triệt đại chí, đại nghiệp, là vận số được cả danh lẫn lợi."
+  },
+  "61": {
+    "number": 61,
+    "name": "Cục 61",
+    "luck": "Trong cát có hung",
+    "alias": "Mẫu đơn phù dung",
+    "palace": "Cư Cung Đoài",
+    "meaning": "Số này như lớp mây mỏng che mặt trăng. Trong hạnh phúc có tiềm ẩn phong ba. Có thể đạt danh lợi, phồn vinh, phú quý. Nếu như cứ ngạo mạn chẳng tuân phục ai sẽ ngấm ngầm thành nội ngoại bất hòa, gia đình xào xáo, anh em chia cách. Cho nên gặp việc phải khá cẩn thận mới được an toàn."
+  },
+  "70": {
+    "number": 70,
+    "name": "Cục 70",
+    "luck": "Hung",
+    "alias": "Tàn cúc phùng sương",
+    "palace": "Cư Cung Đoài",
+    "meaning": "Số này là số  hiểm. Ảm đạm chồng chất, Tịnh mịch, trống rỗng, khốn khó, tật bệnh ập đến."
+  },
+  "79": {
+    "number": 79,
+    "name": "Cục 79",
+    "luck": "Hung",
+    "alias": "Vân đầu vọng nguyệt",
+    "palace": "Cư Cung Đoài",
+    "meaning": "Như người đi đêm trong đường xá tối tăm. Lòng tự tôn cao, tinh thần không ổn định, bất hòa với xung quanh, thiếu ứng biến, mưu trí, tài năng khi gặp việc nên luôn bị công kích và mọi người xa lánh. Cuối cùng lâm vào cảnh khốn khó."
+  },
+  "8": {
+    "number": 8,
+    "name": "Cục 8",
+    "luck": "Cát",
+    "alias": "Kiên cường",
+    "palace": "Cư Cung Cấn",
+    "meaning": "Trời cho ý chí kiên cường, giải trừ được hoạn nạn, có khí phách nghiền nát kẻ thù mà nên việc. Chỉ vì lòng quá lo được, mất nên sẽ có ngày bị gẫy đổ đưa đến phá vận."
+  },
+  "17": {
+    "number": 17,
+    "name": "Cục 17",
+    "luck": "Cát",
+    "alias": "Cương cường",
+    "palace": "Cư Cung Cấn",
+    "meaning": "Sáng rỡ như mặt trời, quyền uy cao, cá tính mạnh mẽ, có chí đột phá vào gian nan mà nên nghiệp lớn. Nếu không quan tâm đến ý kiến của người khác, cứ giữ theo ý mình thì e rằng không hòa hợp, Dễ gặp điều thị phi. Cần nên thận trọng."
+  },
+  "26": {
+    "number": 26,
+    "name": "Cục 26",
+    "luck": "Trong hung có cát",
+    "alias": "Biến quái",
+    "palace": "Cư Cung Cấn",
+    "meaning": "Có thể nói số này là vận anh hùng, thông minh trời phú, giàu tính nghĩa hiệp nhưng sóng gió trùng điệp. Nếu có tinh thần bất khuất giỏi dùng trí tuệ vượt qua gian nan thì sẽ thành 1 nhân vật nổi tiếng, nổi danh 4 biển. Nhưng nếu không phấn dấu nỗ lực thì suốt đời không có khả năng thành công."
+  },
+  "35": {
+    "number": 35,
+    "name": "Cục 35",
+    "luck": "Cát",
+    "alias": "cao lâu vọng nguyệt",
+    "palace": "Cư Cung Cấn",
+    "meaning": "Số giữ được ấm no, hòa thuận, bình an. Sức quan sát sâu xa, đối với sự việc với người đời phải phán đoán chính tà, thiện ác, việc xử sự phải nghiêm cẩn, đúng phép tắc, dồi dào tình cảm chính đáng. Về phương diện văn nghệ, văn học nghệ thuật đều có tài năng phát triển. Số rất hợp với đàn bà."
+  },
+  "44": {
+    "number": 44,
+    "name": "Cục 44",
+    "luck": "Hung",
+    "alias": "Phiền muộn",
+    "palace": "Cư Cung Cấn",
+    "meaning": "Số này là điềm dữ, như lá rụng mùa thu. Số phá gia vong Thân, lao khổ, bệnh hoạn. Tuy có khả năng nhưng mọi việc đều không toại nguyện. Nhưng nếu dày công tích đức thì có thể trở nên một quái kiệt hiếm có trên đời."
+  },
+  "53": {
+    "number": 53,
+    "name": "Cục 53",
+    "luck": "Trong cát có hung",
+    "alias": "Khúc quyển thôi xa",
+    "palace": "Cư Cung Cấn",
+    "meaning": "Là vận số cát, hung lẫn lộn. Bên ngoài thấy hạnh phúc nhưng bên trong là hoạn nạn. Nếu nửa phần trước hạnh phúc thì nửa phần sau là họa hoạn, nửa phần trước phú quý thì nửa phần sau khốn khó."
+  },
+  "62": {
+    "number": 62,
+    "name": "Cục 62",
+    "luck": "Hung",
+    "alias": "Suy bại",
+    "palace": "Cư Cung Cấn",
+    "meaning": "Đây là số mỗi bước đều gặp hung, gia đình bất hòa, phiền muộn, buồn thảm đến. Nếu không cố gắng giảng hòa, ý chí nguyện vọng khó thành đạt dẫn đến cảnh suy bại, nên phải chú trọng nhân hòa để tránh khỏi tai họa ngoài ý muốn."
+  },
+  "71": {
+    "number": 71,
+    "name": "Cục 71",
+    "luck": "Trong hung có cát",
+    "alias": "Thạch thương kim hoa",
+    "palace": "Cư Cung Cấn",
+    "meaning": "Số nửa hung nửa cát. Rồng còn ở trong ao, chờ thời cơ lúc đầu không thành đạt, khi thời cơ đến làm nổi lên dũng khí, muốn là được, thành đạt vô cùng."
+  },
+  "80": {
+    "number": 80,
+    "name": "Cục 80",
+    "luck": "Trong cát có hung",
+    "alias": "Hung họa",
+    "palace": "Cư Cung Cấn",
+    "meaning": "Vận số nhọc nhằn mà không thành, đắng cay, bị hình phạt, đổ vỡ triền miên. Chỉ có sớm tích bồi thiện đức, rời bỏ chuyện thị phi mới giữ được  an nhàn."
+  },
+  "1": {
+    "number": 1,
+    "name": "Cục 1",
+    "luck": "Cát",
+    "alias": "Vũ trụ khởi nguyên",
+    "palace": "Cư Cung Khảm",
+    "meaning": "Đây là cục số cơ bản trong trăm ngàn sự việc, sự kiết tường rất lớn. Có cục số này là được phú quý phồn vinh, phát đạt, thành công lớn, sống lâu."
+  },
+  "10": {
+    "number": 10,
+    "name": "Cục 10",
+    "luck": "Hung",
+    "alias": "Linh ám",
+    "palace": "Cư Cung Khảm",
+    "meaning": "Đây là vận số đen đủi như mặt trời lặn, yểu mệnh, bần cùng, sớm vắng cha mẹ anh em, suốt đời bệnh hoạn. Chỉ có người cẩn thận nỗ lực phấn đấu ngay cả nửa đời trước được vận thịnh cũng phải làm nhiều việc thiện mới thoát khỏi bước đường cùng."
+  },
+  "19": {
+    "number": 19,
+    "name": "Cục 19",
+    "luck": "Trong hung có cát",
+    "alias": "Đa nạn",
+    "palace": "Cư Cung Khảm",
+    "meaning": "Có tài năng, trí tuệ, có thể làm nên sự nghiệp lớn nhưng quá cứng rắn nên sẽ có hại ngoài ý muốn. Khó tránh khổ sở hoặc phải trốn tránh vì quan quyền, thiếu thực lực, tài năng chấn hưng sự nghiệp."
+  },
+  "28": {
+    "number": 28,
+    "name": "Cục 28",
+    "luck": "Hung",
+    "alias": "Thoát thủy phù binh",
+    "palace": "Cư Cung Khảm",
+    "meaning": "Số này là số hung, trống rỗng, diệt vong, họa hoạn, biệt ly, tai họa bất ngờ không dứt, khác với lục thân, ly dị. Đàn bà gặp số này thì sa vào cô quả."
+  },
+  "37": {
+    "number": 37,
+    "name": "Cục 37",
+    "luck": "Cát",
+    "alias": "mãnh hổ xuất lâm",
+    "palace": "Cư Cung Khảm",
+    "meaning": "Phúc trời cho, mọi sự đều được như ý. Suốt đời mưa thuận gió hòa, tuy có lúc bị nguy cơ cũng được người tốt giúp đỡ, gặp dữ hóa lành. Nhưng lòng cô đơn, nên hàm dưỡng phần đức để cho được thành công."
+  },
+  "46": {
+    "number": 46,
+    "name": "Cục 46",
+    "luck": "Hung",
+    "alias": "Lãng lý đào kim",
+    "palace": "Cư Cung Khảm",
+    "meaning": "Giống như thuyền chở châu báu bị chìm, suốt đời trở ngại không ít, gặp nhiều gian nan, bệnh tật, cô đơn, hình phạt, yểu mệnh, sống trong gia đình giàu có bị sa sút. Chỉ có làm được nhiều việc nhân nghĩa, không cực đoan, chịu đựng cảnh khổ mới có thể thoát đại nạn mà thành công."
+  },
+  "55": {
+    "number": 55,
+    "name": "Cục 55",
+    "luck": "Trong cát có hung",
+    "alias": "Thiện ác",
+    "palace": "Cư Cung Khảm",
+    "meaning": "ấy là có cực cát sinh hung, bên ngoài dường như tốt đẹp nhưng bên trong ẩn sự họa hoạn. Việc nào cũng không an tâm. Là vận cách nửa cát, nửa hung. Phải lập chí không khuất phục, không chùn bước, phải trầm tĩnh ứng phó với khó khăn mới khắc phục được mà mở ra vận Thái."
+  },
+  "64": {
+    "number": 64,
+    "name": "Cục 64",
+    "luck": "Hung",
+    "alias": "Phi vận",
+    "palace": "Cư Cung Khảm",
+    "meaning": "Số hư hỏng, ly tán, tai họa, bệnh tật đến thường xuyên. Đông xông, Tây đột, khó nhọc mấy vẫn không thành. Tai họa trùng trùng không chút yên thân."
+  },
+  "73": {
+    "number": 73,
+    "name": "Cục 73",
+    "luck": "Cát",
+    "alias": "Vô dũng",
+    "palace": "Cư Cung Khảm",
+    "meaning": "Số kiết tường tự nhiên có không cần phải lo lắng khổ tâm từng bước đều đi đến con đường sáng sủa, tích tiểu thành đại, làm cho nên đôi khi việc không thành, phải làm theo kiểu đao to búa lớn mới thành tựu tốt."
+  },
+  "6": {
+    "number": 6,
+    "name": "Cục 6",
+    "luck": "Cát",
+    "alias": "An ổn",
+    "palace": "Cư Cung Càn",
+    "meaning": "Thiên đức địa tường đầy đủ, tài lộc phúc thọ dồi dào, suốt đời yên ổn giàu sang, trở thành đại phú. Nhưng vui vẻ quá trớn e rằng quá vui sẽ buồn, nên thận trọng. Có đức thì được hưởng phúc."
+  },
+  "15": {
+    "number": 15,
+    "name": "Cục 15",
+    "luck": "Cát",
+    "alias": "Phúc thọ",
+    "palace": "Cư Cung Càn",
+    "meaning": "Số này là số Phúc thọ viên mãn, có tiếng tăm, có đức độ, được trên dưới tin tưởng, đến đâu cũng được ngưỡng mộ, thành sự nghiệp, phú quý, vinh hoa. Nhưng lúc đắc chí mà sinh kiêu ngạo sẽ gặp kẻ địch dẫn đến tàn tật, suy vi."
+  },
+  "24": {
+    "number": 24,
+    "name": "Cục 24",
+    "luck": "Cát",
+    "alias": "Quật tàng đắc kim",
+    "palace": "Cư Cung Càn",
+    "meaning": "Vận cách ôn hòa thuần lương, đường đi cũng có chút ghập ghềnh, nhờ có tài trí trời cho đầy đủ, cần kiệm lập nghiệp, tay trắng làm nên, tiền của dồi dào cho đến già. Đó là phúc con cháu được kế thừa dư khánh."
+  },
+  "33": {
+    "number": 33,
+    "name": "Cục 33",
+    "luck": "Cát",
+    "alias": "Thăng thiên",
+    "palace": "Cư Cung Càn",
+    "meaning": "Số này tượng mặt trời mọc lên cao, vận cực thịnh vượng phát 4 phía, quyền uy, trí mưu, cương nghị, quả đoán, danh vang thiên hạ. Nhưng quá cương nghị sẽ bị hiểu lầm, gặp chuyện thị phi, người không kham nổi việc thì đừng dùng. Đàn bà ko hợp số này."
+  },
+  "42": {
+    "number": 42,
+    "name": "Cục 42",
+    "luck": "Trong cát có hung",
+    "alias": "Hàn thiền tại liễu",
+    "palace": "Cư Cung Càn",
+    "meaning": "Tuy nhiều tại, nhiều nghề nhưng ý chí mềm yếu, thiếu ý chí phấn đấu nên 10 việc đến 9 việc không thành. Chuyên tâm tiến thủ có thể thành tựu nếu không sẽ thất bại nặng nề."
+  },
+  "51": {
+    "number": 51,
+    "name": "Cục 51",
+    "luck": "Trong cát có hung",
+    "alias": "Phù trầm",
+    "palace": "Cư Cung Càn",
+    "meaning": "Là vận số nửa thịnh nửa suy tuy được hanh vận trời cho nhưng thiếu thực lực, tuổi trẻ đắc chí, về già không tránh khỏi gẫy đổ, khốn khó. Nếu như bình thường có lòng thận trọng, biết tự trọng, tự xử, có thể giữ được bình yên."
+  },
+  "60": {
+    "number": 60,
+    "name": "Cục 60",
+    "luck": "Hung",
+    "alias": "Vô mưu",
+    "palace": "Cư Cung Càn",
+    "meaning": "Vận số rất đen tối, không chút ánh sáng, không có duyên số, phúc thọ, việc gì cũng không như ý muốn, thêm lòng mê ý loạn, dễ sa vào hình phạt, bệnh tật, yểu mệnh."
+  },
+  "69": {
+    "number": 69,
+    "name": "Cục 69",
+    "luck": "Hung",
+    "alias": "Phi nghiệp",
+    "palace": "Cư Cung Càn",
+    "meaning": "Vận số hung, bất an, gặp việc thì dao động, tiến thoái rối rắm, khuynh gia bại sân, tai họa thường xuyên không có hạnh phúc. Số này thiếu tính nhẫn nại, phải rèn luyện tính chịu đựng mới khỏi đại nạn."
+  },
+  "78": {
+    "number": 78,
+    "name": "Cục 78",
+    "luck": "Trong cát có hung",
+    "alias": "Bán hung",
+    "palace": "Cư Cung Càn",
+    "meaning": "Kiết hung mỗi thứ 1 nửa, khí hung mạnh hơn nên nửa đầu đời có hạnh phúc, nửa cuối đời bị khốn khó, Bởi trí tuệ năng lực sớm chín chắn nên thành công sớm ở nửa đầu đời, từ giữa về sau dần dần suy thoái."
+  }
+}
